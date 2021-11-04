@@ -4,3 +4,4 @@ export * from './facultad-departamento.controller';
 export * from './departamento-proponente.controller';
 export * from './tipo-vinculacion-proponente.controller';
 export * from './proponente-tipo-vinculacion.controller';
+export * from './carga-archivos.controller';
