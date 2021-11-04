@@ -1,5 +1,5 @@
 export namespace Keys {
-  export const carpetaImagenPersonas = '../../archivos/vehiculos';
+  export const carpetaImagenPersonas = '../../archivos/personas';
   export const nombreCampoImagenPersona = 'file';
   export const extensionesPermitidasIMG: string[] = ['.PNG', '.JPG', '.JPEG', '.SVG'];
   export const tamMaxImagenPersona = 1024 * 1024;

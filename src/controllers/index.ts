@@ -5,3 +5,4 @@ export * from './departamento-proponente.controller';
 export * from './tipo-vinculacion-proponente.controller';
 export * from './proponente-tipo-vinculacion.controller';
 export * from './carga-archivos.controller';
+export * from './descargar-archivos.controller';
