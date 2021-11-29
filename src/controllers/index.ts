@@ -6,3 +6,7 @@ export * from './tipo-vinculacion-proponente.controller';
 export * from './proponente-tipo-vinculacion.controller';
 export * from './carga-archivos.controller';
 export * from './descargar-archivos.controller';
+export * from './proponente.controller';
+export * from './departamento.controller';
+export * from './facultad.controller';
+export * from './tipo-vinculacion.controller';
