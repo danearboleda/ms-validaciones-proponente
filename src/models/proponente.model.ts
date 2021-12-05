@@ -1,6 +1,6 @@
-import {Entity, model, property, belongsTo} from '@loopback/repository';
-import {TipoVinculacion} from './tipo-vinculacion.model';
+import {belongsTo, Entity, model, property} from '@loopback/repository';
 import {Departamento} from './departamento.model';
+import {TipoVinculacion} from './tipo-vinculacion.model';
 
 @model()
 export class Proponente extends Entity {
@@ -57,7 +57,7 @@ export class Proponente extends Entity {
   Foto?: any;
 
   @belongsTo(() => TipoVinculacion, {name: 'vinculaciones'})
-  id_vinculacion: number;
+  id_vinculacion: TipoVinculacion;
 
   @belongsTo(() => Departamento, {name: 'tiene_departamento'})
   id_departamento: number;
