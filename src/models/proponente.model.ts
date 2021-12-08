@@ -57,7 +57,7 @@ export class Proponente extends Entity {
   Foto?: any;
 
   @belongsTo(() => TipoVinculacion, {name: 'vinculaciones'})
-  id_vinculacion: TipoVinculacion;
+  id_vinculacion: number;
 
   @belongsTo(() => Departamento, {name: 'tiene_departamento'})
   id_departamento: number;
